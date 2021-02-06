@@ -17,28 +17,28 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > A Photo Album or memories.
+  > A Resolutions App
 
 ## Sub-Heading ##
-  > Anyone with a need for a simple customizable digital photo album
+  > A simple App to create your new Years Resolution
 
 ## Summary ##
-  > An easy simple way to maintain a photo album. Create, customize, delete albums with rich information embedded within each album like person creating the album, about the album etc.
+  > An simple way to create and track your new years resolutions, to create a more enriching life
 
 ## Problem ##
-  > Organize your 1000s of photos in your phone into a neat memories album
+  > Often we write resolutions on a book or a paper and gets lost over time. An app which is synced to a cloud database, so you never loose your resolutions again
 
 ## Solution ##
-  > With a simple UI , users can create albums with information about the album and add photos. Users can also delete
+  > With a simple UI , users can create resolutions with information about their goal and date. Users can also edit and delete resolutions
 
 ## Quote from You ##
-  > Pictures are a reflection of an individual, album is the soul
+  > Habbits are what makes a person
 
 ## How to Get Started ##
-  > Just need internet and your photos
+  > Just need internet
 
 ## Customer Quote ##
-  > Memories app was a delight to use, my grandmother who has limited understand of web was able to easily use it for creating her albums.Thank you Memories
+  > Resolutions App was so simple and elegant to use. It kept all the logs and I was able to edit/delete/create my 2021 resolutions
 
 ## Closing and Call to Action ##
-  > Please provide is feedback on FB, IG and Twitter or wite to us at memories@memories.com
+  > Please provide is feedback on FB, IG and Twitter or wite to us at resolutions@resolutions.com
