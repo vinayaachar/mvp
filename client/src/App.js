@@ -1,35 +1,29 @@
 import React from 'react';
-import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import memories from './images/image.png';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Posts from './components/Posts/Posts';
-import Form from './components/Form/Form';
-import useStyles from './styles';
+import Navbar  from './components/navbar.component';
+import ResolutionList  from './components/resolution-list.component';
+import EditResolution  from './components/edit-resolution.component';
+import CreateResolution  from './components/create-resolution.component';
+import CreateUser  from './components/create-user.component';
 
-const App = () => {
-  const classes = useStyles();
+
+
+function App() {
   return (
-    <Container maxidth= "lg">
-      <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">Memories Album</Typography>
-        <img className={classes.image} src= {memories} alt="memories" height="60" />
-      </AppBar>
-      <Grow in>
-        <Container>
-          <Grid container justify="space-between" alignItems="stretch" spacing= {3}>
-            <Grid item xs={12} sm={7}>
-              <Posts />
-            </Grid>
-            <Grid item xs={12} sm={4}>
-              <Form />
-            </Grid>
-          </Grid>
-        </Container>
-      </Grow>
-    </Container>
-  );
+    <Router>
+      <div className="container">
+        <Navbar />
+        <br />
+        <Route path='/' exact component={ResolutionList} />
+        <Route path='/edit/:id'  component={EditResolution} />
+        <Route path='/create'  component={CreateResolution} />
+        <Route path='/user'  component={CreateUser} />
+      </div>
+    </Router>
+  )
 }
-
 
 export default App;
